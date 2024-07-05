@@ -1,2 +1,2 @@
-# HackTM2023-CodeMovers
-Project made by Nenciu David, Daniel Stefan Parvan and Paul Lascu for HackTM2023
+We are a team of highschool students who want to make a difference in our city using our programming skills.
+With our knowledge in programming we aim to build a site that will offer real-time bus tacking. We want to create an compact GPS module that will be mounted on desired transportation means, using an esp32 module and a GPS sensor. Our module will be connected to the Wi-Fi available on the transportation means. There will also be a backend function for the drivers that allows them to select the route from the database.

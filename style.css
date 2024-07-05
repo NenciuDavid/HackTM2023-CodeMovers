@@ -1,0 +1,136 @@
+#map {
+  position: absolute; top: 0; bottom: 0; left: 0; right: 0;
+}
+
+#marker {
+  position: absolute;
+}
+
+#myButton {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 1;
+  border-radius: 20px;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Style for the modal container */
+#myModal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+  
+/* Style for the modal content */
+#myModal .modal-content {
+  background-color: #fefefe;
+  margin: 2% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#myModal .close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.station-button {
+  padding: 20px 20px;
+  background-color: #4faccb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.station-button:hover {
+  background-color: #4faccb;
+}
+
+#stationModal {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#stationModal .modal-content {
+  background-color: #fefefe;
+  margin: 2% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+  max-width: 600px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#stationModal .close {
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.route-button {
+  padding: 20px 20px;
+  background-color: #4faccb;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+}
+
+.route-button:hover {
+  background-color: #4faccb;
+}
+
+.popup {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: none;
+}
+
+.popup-text {
+  display: block;
+  margin-bottom: 5px;
+}
